@@ -1,0 +1,53 @@
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #f1eded;
+    background-color: #f0ecec;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.titleContainer{
+    color:#5c9fff;
+    font-size: 25vmax;
+    text-align: center;
+}
+.cardContainer{
+  display: grid;
+  grid-template-columns:20% 20% 20%;
+  border-radius: 30px;
+  justify-content: space-around;
+  
+}
+.cardStyle{
+   display: flex;
+   flex-direction: column;
+    width: auto;
+    height: 45vh;
+    border: 1px solid #5c9fff;
+    background-color: #fffffe;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.productsImg{
+    width: 65%;
+    border-radius: 8px;
+    margin-top: 20px;
+ 
+}
+
+.productsName{
+    font-size: 16vmax;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+  
+}
+.productsInfo{
+    font-size: 14vmax;
+    font-weight: bold;
+    color: #757575;
+  
+}
