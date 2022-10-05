@@ -1,3 +1,4 @@
+import "./App.css";
 import { ProductList } from './components/ProductList'
 
 const App = () => {
@@ -5,7 +6,7 @@ const App = () => {
   return (
       <div className="App">
       <section>
-        <ProductList/>
+        <ProductList />
       </section>
     </div>
   )

@@ -22,17 +22,18 @@
   }
    
   .closeIcon {
-    content: 'x';
+    content: 'X';
     cursor: pointer;
     position: fixed;
     right: calc(15% - 30px);
     top: calc(100vh - 85vh - 33px);
-    background: #ededed;
+    background: #5c9fff;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     line-height: 20px;
     text-align: center;
     border: 1px solid #999;
-    font-size: 20px;
+    font-size: 24px;
+
   }
