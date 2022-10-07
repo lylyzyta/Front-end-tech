@@ -1,9 +1,5 @@
 .productsContainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: #f1eded;
-    background-color: #f0ecec;
+     color: #444141;
     align-items: center;
     justify-content: space-between;
 }
@@ -12,7 +8,7 @@
     color: #5c9fff;
     font-size: 20px;
     text-align: center;
-}
+    }
 
 .cardContainer {
     display: grid;
@@ -86,4 +82,24 @@
     font-weight: bolder;
     margin-left: 450px;
  
+}
+
+
+.btnIncreaseDecrease{
+    border-radius: 5px;
+    border: 2px solid #5c9fff;
+    background-color: #5c9fff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.productRem{
+    border-radius: 5px;
+    border: 2px solid #5c9fff;
+    background-color: #5c9fff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
